@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
-/*
-colors
-rgb(45, 57, 128) azul
-rgb(46, 139, 87) verde agua
-*/
+:root{
+    --color_clear: #F4F1F8; 
+    --color_dark_logo: #2d3980;
+    --color_mid_logo: #5982CF;
+    --color_light_logo: #2e8b57;
+    --color_other_side: #FA9438;
+}
