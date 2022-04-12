@@ -14,6 +14,9 @@
     padding: 0px;
     margin: 0px;
 }
+abbr{
+    text-decoration: none;
+}
 article{
     border: solid 1px black;
     border-radius: 10px;
@@ -26,7 +29,11 @@ article p{
     text-align: justify;
 }
 article ul{
-    padding: 0px 20px;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+article li{
+    padding: 5px 0px;
 }
 body{
     background-color: var(--color_other_side);
@@ -70,4 +77,9 @@ main{
 }
 section{
     padding: 10px 22px;
+}
+.columns{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
