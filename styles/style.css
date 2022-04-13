@@ -10,7 +10,7 @@
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1.5vw;
     padding: 0px;
     margin: 0px;
 }
@@ -26,6 +26,7 @@ article div{
     text-align: center;
 }
 article p{
+    padding: 20px 20px;
     text-align: justify;
 }
 aside{
@@ -53,8 +54,10 @@ footer > div{
     margin: auto;
     max-width: 50%;
 }
+h2{
+    font-size: 2vw;
+}
 header{
-    
     background-color: var(--color_dark_shadow);
     color: var(--color_clear);
     text-align: center;
