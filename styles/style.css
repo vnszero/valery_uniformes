@@ -20,6 +20,7 @@ abbr{
 article{
     border: solid 1px black;
     border-radius: 10px;
+    box-shadow: 2px 2px 6px var(--color_light_shadow);
     padding: 20px;
 }
 article div{
@@ -80,6 +81,7 @@ html{
 main{
     background-color: var(--color_clear);
     border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 7px 10px var(--color_dark_shadow);
     margin: auto;
     max-width: 950px;
     min-width: 200px;
