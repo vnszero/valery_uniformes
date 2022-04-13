@@ -95,8 +95,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: var(--color_mid_logo);
-    text-shadow: 2px 2px 2px var(--color_light_shadow);
+    color: var(--color_light_logo);
+    text-decoration: underline;
     transition: 0.5s;
 }
 section{
