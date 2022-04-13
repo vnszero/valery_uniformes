@@ -39,7 +39,8 @@ article li{
     padding: 5px 0px;
 }
 body{
-    background-color: var(--color_other_side);
+    background-color: black;
+    background-image: url("../imgs/jeans_texture.png");
 }
 footer{
     background-color: var(--color_dark_shadow);
