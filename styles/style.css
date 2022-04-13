@@ -28,8 +28,11 @@ article div{
 article p{
     text-align: justify;
 }
-article ul{
-    list-style-type: none;
+aside{
+    background-color: black;
+    text-align: center;
+}
+ul{
     padding: 10px 20px;
 }
 article li{
@@ -37,6 +40,16 @@ article li{
 }
 body{
     background-color: var(--color_other_side);
+}
+footer{
+    background-color: var(--color_dark_shadow);
+    color: var(--color_clear);
+    margin-top: 40px;
+    padding: 30px;
+}
+footer > div{
+    margin: auto;
+    max-width: 50%;
 }
 header{
     background-image: linear-gradient(to right, var(--color_dark_logo), var(--color_light_logo));
@@ -72,6 +85,7 @@ html{
 }
 main{
     background-color: var(--color_clear);
+    border-radius: 0px 0px 20px 20px;
     margin: auto;
     max-width: 950px;
 }
@@ -82,4 +96,7 @@ section{
     list-style-type: '\1F536\00A0';
     list-style-position: inside;
     columns: 2;
+}
+.nostyle{
+    list-style-type: none;
 }
