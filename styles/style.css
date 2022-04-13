@@ -39,6 +39,7 @@ article li{
     padding: 5px 0px;
 }
 body{
+    /* background-image: linear-gradient(to right, var(--color_dark_logo), var(--color_light_logo)); */
     background-color: black;
     background-image: url("../imgs/jeans_texture.png");
 }
@@ -53,7 +54,8 @@ footer > div{
     max-width: 50%;
 }
 header{
-    background-image: linear-gradient(to right, var(--color_dark_logo), var(--color_light_logo));
+    
+    background-color: var(--color_dark_shadow);
     color: var(--color_clear);
     text-align: center;
 }
@@ -65,6 +67,7 @@ header a{
 header a:hover{
     background-color: var(--color_mid_logo);
     text-shadow: 2px 2px 2px var(--color_light_shadow);
+    transition: background 0.5s;
 }
 header h1{
     font-family: 'Times New Roman', Times, serif;
