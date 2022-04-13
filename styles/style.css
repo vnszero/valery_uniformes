@@ -60,7 +60,6 @@ h2{
 header{
     background-color: var(--color_dark_shadow);
     color: var(--color_clear);
-    min-height: 150px;
     text-align: center;
 }
 header h1{
@@ -72,6 +71,7 @@ header h1{
 }
 header p{
     font-size: 19px;
+    padding-bottom: 20px;
     text-shadow: 1px 1px 1px var(--color_dark_shadow);
 }
 html{
@@ -91,7 +91,7 @@ nav{
 }
 nav a{
     color: var(--color_clear);
-    padding: 30px 10px;
+    padding: 30px 15px;
     text-decoration: none;
 }
 nav a:hover{
