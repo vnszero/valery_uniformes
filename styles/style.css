@@ -60,6 +60,7 @@ h2{
 header{
     background-color: var(--color_dark_shadow);
     color: var(--color_clear);
+    min-height: 150px;
     text-align: center;
 }
 header a{
@@ -70,7 +71,7 @@ header a{
 header a:hover{
     background-color: var(--color_mid_logo);
     text-shadow: 2px 2px 2px var(--color_light_shadow);
-    transition: background 0.5s;
+    transition: 0.5s;
 }
 header h1{
     font-family: 'Times New Roman', Times, serif;
@@ -95,6 +96,7 @@ main{
     border-radius: 0px 0px 20px 20px;
     margin: auto;
     max-width: 950px;
+    min-width: 300px;
 }
 section{
     padding: 10px 22px;
