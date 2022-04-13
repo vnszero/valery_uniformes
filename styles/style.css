@@ -63,26 +63,12 @@ header{
     min-height: 150px;
     text-align: center;
 }
-header a{
-    color: var(--color_clear);
-    padding: 30px 30px;
-    text-decoration: none;
-}
-header a:hover{
-    background-color: var(--color_mid_logo);
-    text-shadow: 2px 2px 2px var(--color_light_shadow);
-    transition: 0.5s;
-}
 header h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 66px;
     padding-top: 20px;
     text-decoration: underline;
     text-shadow: 1px 1px 1px var(--color_dark_shadow);
-}
-header nav{
-    padding: 30px 0px;
-    text-align: left;
 }
 header p{
     font-size: 19px;
@@ -97,6 +83,21 @@ main{
     margin: auto;
     max-width: 950px;
     min-width: 300px;
+}
+nav{
+    background-color: var(--color_dark_shadow);
+    padding: 30px 20px;
+    text-align: left;
+}
+nav a{
+    color: var(--color_clear);
+    padding: 30px 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: var(--color_mid_logo);
+    text-shadow: 2px 2px 2px var(--color_light_shadow);
+    transition: 0.5s;
 }
 section{
     padding: 10px 22px;
