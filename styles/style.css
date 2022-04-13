@@ -106,6 +106,13 @@ section{
     list-style-position: inside;
     columns: 2;
 }
+.galery{
+    text-align: center;
+}
+.image{
+    display: inline-flex;
+    width: 49.6%;
+}
 .logo > h1{
     font-size: 4.2vw;
 }
