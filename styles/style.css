@@ -115,6 +115,10 @@ section{
     display: inline-flex;
     width: 49.6%;
 }
+.inline {
+    padding: 0 6%;
+    display: inline-block;
+}
 .logo > h1{
     font-size: 375%;
 }
