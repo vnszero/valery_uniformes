@@ -35,7 +35,7 @@ aside{
     text-align: center;
 }
 ul{
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 article li{
     padding: 5px 0px;
@@ -55,12 +55,13 @@ footer > div{
     margin: auto;
     max-width: 100%;
     text-align: center;
+    padding-top: 20px;
 }
 h2{
     font-size: 120%;
 }
 header{
-    background-color: var(--color_dark_shadow);
+    background-color: var(--color_light_shadow);
     color: var(--color_clear);
     text-align: center;
 }
@@ -86,7 +87,7 @@ main{
     min-width: 200px;
 }
 nav{
-    background-color: var(--color_dark_shadow);
+    background-color: var(--color_light_shadow);
     padding: 30px 20px;
     text-align: left;
 }
@@ -103,10 +104,10 @@ nav a:hover{
 section{
     padding: 10px 22px;
 }
-.columns{
+.list{
     list-style-type: '\1F536\00A0';
     list-style-position: inside;
-    columns: 2;
+    text-align: left;
 }
 .gallery{
     text-align: center;
@@ -116,8 +117,9 @@ section{
     width: 49.6%;
 }
 .inline {
-    padding: 0 6%;
     display: inline-block;
+    width: 230px;
+    padding: 0 6%;
 }
 .logo > h1{
     font-size: 375%;
