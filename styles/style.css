@@ -87,7 +87,7 @@ main{
 }
 nav{
     background-color: var(--color_light_shadow);
-    padding: 30px 20px;
+    padding: 30px 8px;
     text-align: left;
 }
 nav a{
